@@ -17,7 +17,6 @@ React/ReactJS
 
 ## References
 ```
-
 Public-API
 link: https://github.com/public-apis/public-apis#cryptocurrency
 
