@@ -1,7 +1,10 @@
 import styles from './Coins.module.css'
+import Link from 'next/Link';
 
 const Coins = ({name, price, symbol, marketcap, volume, image, priceChange, id }) => {
     return (
+        <Link href='/coin/[id]' as={'/coin/${id}'}>
+            <a>
         <div className={styles.coin_container}>
             <div className={styles.coin_row}>
                 <div className={styles.coin}>
@@ -28,6 +31,8 @@ const Coins = ({name, price, symbol, marketcap, volume, image, priceChange, id }
                 </div>
             </div>
         </div>
+        </a>
+        </Link>
     )
 }
 
