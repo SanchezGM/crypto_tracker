@@ -1,5 +1,8 @@
 import Coins from './Coins';
-
+/*
+* README:
+* This file allows you to pick specific information from the cryptocurrency website
+*/
 export default function CoinList({ filteredCoins }) {
   return (
     <>

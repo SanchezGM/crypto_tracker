@@ -1,5 +1,6 @@
 /*
-This is for css
+* README
+* This file changes the design of the searchbar 
 */
 
 .coin_search{
@@ -8,9 +9,9 @@ This is for css
     align-items: center;
     width: 300px;
 }
-
+/*Changes design for the searchbar input*/
 .coin_input {
-    background: #222531;
+    background: #4160dd;
     border: none;
     padding: 16px;
     border-radius: 4px;
@@ -19,7 +20,7 @@ This is for css
     width: 100%;
 
 }
-
+/*Changes color of the placeholder for search bar*/
 .coin_input::placeholder {
-    color: #e2e2e2;
+    color: #009207;
 }

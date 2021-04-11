@@ -2,6 +2,12 @@
 import Layout from '../../components/Layout';
 import styles from './Coin.module.css';
 
+/**
+ * README:
+ * This file is for when you click on a crypto to see more information
+ * Currently does not work because of code line 34
+ */
+
 const Coin = ({coin}) => {
     return (
         <Layout>

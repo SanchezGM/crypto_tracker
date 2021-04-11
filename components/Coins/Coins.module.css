@@ -1,3 +1,8 @@
+/*
+* README:
+* This file changes the design of the row and item information
+*/
+
 .coin_container {
     display: flex;
     justify-content: center;
@@ -62,10 +67,12 @@
     width: 100px;
 }
 
+/*Percent color for when crypto is down**/
 .red {
     color: #f00606;
 }
 
+/*Percent color for when crypto is up*/
 .green {
     color: #13c783;
 }

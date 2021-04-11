@@ -1,6 +1,10 @@
 import Head from 'next/head';
 import Link from 'next/Link';
 
+/*
+ * README:
+ *This file ensures that each page has a consistent layout
+ */
 const Layout = ({children, title='Crypto Tracker'}) => {
     return (
         <div className='layout'>

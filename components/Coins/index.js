@@ -1,6 +1,10 @@
 import styles from './Coins.module.css'
 import Link from 'next/Link';
-
+/*
+* README:
+* This file changes the structue of the information to be displayed
+* in the homepage for all the coins.
+*/
 const Coins = ({name, price, symbol, marketcap, volume, image, priceChange, id }) => {
     return (
         <Link href='/coin/[id]' as={'/coin/${id}'}>

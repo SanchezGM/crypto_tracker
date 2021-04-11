@@ -1,3 +1,10 @@
+/*
+* README:
+* This file changes the design of the layout for when you click on a specific
+* in the main page.
+* Currently the [id].js file is not working becaues theres an issue with the API
+*/
+
 .coin_page {
     display: flex;
     justify-content: center;
