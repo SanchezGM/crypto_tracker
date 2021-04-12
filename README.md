@@ -10,9 +10,16 @@ Create an application that tracks the top cryptocurrencies and their value(s).
 Frank Joseph Serdenia | George Sanchez | Joseph Olympia | Andriy Korsun | Nicolas Martinez
 ```
 
+## Steps To Test 
+```
+2. In the root directory of the repository, open command line.
+3. Enter the command:  npm run dev
+4. Click the localhost url
+```
+
 ## Tools
 ```
-React/ReactJS
+Next.js | VScode
 ```
 
 ## References
@@ -22,5 +29,8 @@ link: https://github.com/public-apis/public-apis#cryptocurrency
 
 Coindesk
 link: https://www.coindesk.com/coindesk-api
+
+CoinGecko
+link:https://www.coingecko.com/en/api
 ```
 
