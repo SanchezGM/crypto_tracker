@@ -13,7 +13,9 @@ Frank Joseph Serdenia | George Sanchez | Joseph Olympia | Andriy Korsun | Nicola
 ## Steps To Test 
 ```
 2. In the root directory of the repository, open command line.
-3. Enter the command:  npm run dev
+3. Enter the command:  code .
+4. Click the "Terminal"
+5. Type: npm run dev
 4. Click the localhost url
 ```
 
