@@ -23,7 +23,7 @@ const Coin = ({coin}) => {
     )
 }
 
-export default Coin
+export default Coin;
 
 
 export async function getServerSideProps(context) {
