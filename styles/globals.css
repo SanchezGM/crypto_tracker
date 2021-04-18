@@ -24,11 +24,11 @@ a {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-  color: #fff;
+  color: black;
 }
 
 body {
-  background-color: #101012;
+  background-color: #ffffff;
 }
 
 .coin_app {
@@ -52,4 +52,8 @@ body {
 .coin_logo {
   height: 200px;
   width: 200px;
+}
+
+.header-logo{
+  width: 50%;
 }

@@ -14,7 +14,7 @@ const Layout = ({children, title='Crypto Tracker'}) => {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <header className='header'>
-        <img src="../../../assets/crypto-pattern.png" alt="Girl in a jacket" width="50" height="60"/>
+        <img src="../../../assets/crypto-pattern.png" alt="logo" className="header-logo"/>
         </header>
         <main>{children}</main>
         </div>
