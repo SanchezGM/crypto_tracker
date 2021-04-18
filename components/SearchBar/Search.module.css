@@ -1,0 +1,26 @@
+/*
+* README
+* This file changes the design of the searchbar 
+*/
+
+.coin_search{
+    margin-bottom:64px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+/*Changes design for the searchbar input*/
+.coin_input {
+    background: #4160dd;
+    border: none;
+    padding: 16px;
+    border-radius: 4px;
+    outline: none;
+    height: 100%;
+    width: 100%;
+
+}
+/*Changes color of the placeholder for search bar*/
+.coin_input::placeholder {
+    color: #009207;
+}
