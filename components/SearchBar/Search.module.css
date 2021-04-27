@@ -3,15 +3,21 @@
 * This file changes the design of the searchbar 
 */
 
+
+.coin_subheader{
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+}
+
 .coin_search{
-    margin-bottom:64px;
-    display: flex;
-    align-items: center;
-    width: 300px;
+    margin-top:30px;    
+    margin-bottom:64px;         
+    width: 400px;
+    height: 50px;
 }
 /*Changes design for the searchbar input*/
 .coin_input {
-    background: #4160dd;
+    background: #f5f5f5;
     border: none;
     padding: 16px;
     border-radius: 4px;
@@ -22,5 +28,5 @@
 }
 /*Changes color of the placeholder for search bar*/
 .coin_input::placeholder {
-    color: #009207;
+    color: black;
 }
