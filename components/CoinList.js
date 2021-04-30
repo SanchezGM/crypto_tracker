@@ -3,10 +3,10 @@ import Coins from './Coins';
 * README:
 * This file allows you to pick specific information from the cryptocurrency website
 */
-export default function CoinList({ filteredCoins }) {
+export default function CoinList({ specifiedCoins }) {
   return (
     <>
-      {filteredCoins.map(coin => {
+      {specifiedCoins.map(coin => {
         return (
           <Coins
             key={coin.id}

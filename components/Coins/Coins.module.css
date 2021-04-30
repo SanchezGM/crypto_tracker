@@ -3,12 +3,12 @@
 * This file changes the design of the row and item information
 */
 
-.coin_container {
+.crypto_container {
     display: flex;
     justify-content: center;
 }
 
-.coin_row {
+.crypto_row {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -19,61 +19,61 @@
     padding: 0rem 2rem;
 }
 
-.coin_row:hover{
+.crypto_row:hover{
     background: #f5f5f5;
 }
 
-.coin {
+.crypto {
     display: flex;
     align-items: center;
     padding-right: 24px;
 }
 
-.coin_img{
+.crypto_img{
     height: 30px;
     width: 30px;
     margin-right: 10px;
 }
 
-.coin_h1 {
+.crypto_h1 {
     font-size: 16px;
     width: 150px;
 }
 
-.coin_symbol {
+.crypto_symbol {
     text-transform: uppercase;
 }
 
-.coin_data {
+.crypto_data {
     display:flex;
     text-align: right;
     justify-content: space-between;
     width: 100%;
 }
 
-.coin_price {
+.crypto_price {
     width: 110px;
 }
 
-.coin_volume {
+.crypto_volume {
     width: 155px
 }
 
-.coin_marketcap {
+.crypto_marketcap {
     width: 230px;
 }
 
-.coin_percent {
+.crypto_percent {
     width: 100px;
 }
 
 /*Percent color for when crypto is down**/
-.red {
+.decrease_percentage {
     color: #f00606;
 }
 
 /*Percent color for when crypto is up*/
-.green {
+.increase_percentage {
     color: #13c783;
 }
 

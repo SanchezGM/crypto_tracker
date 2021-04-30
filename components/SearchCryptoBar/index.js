@@ -6,19 +6,19 @@ import styles from './Search.module.css';
       
 let [month, date, year]    = new Date().toLocaleDateString("en-US").split("/");
 
-const SearchBar = ({...rest}) => {
+const SearchCryptoBar = ({...rest}) => {
     return (
-        <div className= {styles.coin_subheader}>
-            <div className= {styles.coin_search}>
+        <div className= {styles.crypto_subheader}>
+            <div className= {styles.crypto_search}>
           
                 <h1>Top 25 Crytocurrencies - { month + '/' + date + "/" + year } </h1>
                
             </div>
-            <div className= {styles.coin_search}>
-                <input class={styles.coin_input}{...rest}/>                          
+            <div className= {styles.crypto_search}>
+                <input class={styles.crypto_input}{...rest}/>                          
             </div>            
         </div>
     )
 }
 
-export default SearchBar
+export default SearchCryptoBar

@@ -5,14 +5,14 @@
 * Currently the [id].js file is not working becaues theres an issue with the API
 */
 
-.coin_page {
+.crypto_page {
     display: flex;
     justify-content: center;
     height: 75vh;
     align-items: center;
   }
   
-  .coin_container {
+  .crypto_container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,19 +23,19 @@
     width: 400px;
   }
   
-  .coin_image {
+  .crypto_image {
     margin-bottom: 1rem;
   }
   
-  .coin_name {
+  .crypto_name {
     margin-bottom: 1rem;
   }
   
-  .coin_ticker {
+  .crypto_ticker {
     margin-bottom: 1rem;
   }
   
-  .coin_current {
+  .crypto_current {
     margin-bottom: 1rem;
     font-size: 2rem;
   }

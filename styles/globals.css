@@ -31,7 +31,7 @@ body {
   background-color: #ffffff;
 }
 
-.coin_app {
+.crypto_tracker {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,6 +54,6 @@ body {
   width: 200px;
 }
 
-.header-logo{
+.crypto-logo {
   width: 50%;
 }

@@ -1,28 +1,28 @@
 
 import {useState} from 'react'
 import CoinList from '../components/CoinList';
-import SearchBar from '../components/SearchBar';
+import SearchBar from '../components/SearchCryptoBar';
 import Layout from '../components/Layout';
 
 
 export default function Home({filteredCoins}) {
   const [search, setSearch] = useState('')
 
-  const allCoins = filteredCoins.filter( coin =>
+  const listAllCoins = filteredCoins.filter( coin =>
     coin.name.toLowerCase().includes(search.toLowerCase())
 
   )
 
-  const handleChange = e => {
+  const changeHandler = e => {
     e.preventDefault()
     setSearch(e.target.value.toLowerCase())
   }
   
   return (
     <Layout>
-      <div className='coin_app'>
-      <SearchBar type='text' placeholder='Search' onChange={handleChange}/>
-      <CoinList filteredCoins={allCoins}/>
+      <div className='crypto_tracker'>
+      <SearchBar type='text' placeholder='Search' onChange={changeHandler}/>
+      <CoinList specifiedCoins={listAllCoins}/>
       </div>
     </Layout>
   );
