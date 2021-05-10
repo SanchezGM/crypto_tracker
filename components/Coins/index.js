@@ -1,5 +1,5 @@
 import styles from './Coins.module.css'
-import Link from 'next/Link';
+import Link from 'next/link';
 /*
 * README:
 * This file changes the structue of the information to be displayed
