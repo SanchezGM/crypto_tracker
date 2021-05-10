@@ -32,6 +32,7 @@ const Coins = ({name, price, symbol, marketcap, volume, image, priceChange, id }
                     <p className={styles.coin_marketcap}>
                         Mkt Cap: ${marketcap.toLocaleString()}
                     </p>
+                    
                 </div>
             </div>
         </div>

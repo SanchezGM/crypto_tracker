@@ -55,5 +55,8 @@ body {
 }
 
 .header-logo{
-  width: 50%;
+  /*width: 50%;*/
+  width: 1000px; 
+  height: 300px; 
+  object-fit: cover;
 }

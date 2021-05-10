@@ -21,6 +21,7 @@
 
 .coin_row:hover{
     background: #f5f5f5;
+    transform: scale(1.01)
 }
 
 .coin {
