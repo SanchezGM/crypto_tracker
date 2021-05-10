@@ -1,0 +1,59 @@
+/*
+* README:
+* This file changes the general design of the program
+*/
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.crypto_tracker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  color: #fff;
+}
+
+/* Layout CSS */
+.layout {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+.coin_logo {
+  height: 200px;
+  width: 200px;
+}
+
+.crypto-logo {
+  width: 50%;
+}

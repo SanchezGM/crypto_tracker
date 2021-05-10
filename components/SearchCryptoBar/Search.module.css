@@ -1,0 +1,32 @@
+/*
+* README
+* This file changes the design of the searchbar 
+*/
+
+
+.crypto_subheader{
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+}
+
+.crypto_search {
+    margin-top:30px;    
+    margin-bottom:64px;         
+    width: 400px;
+    height: 50px;
+}
+/*Changes design for the searchbar input*/
+.crypto_input {
+    background: #f5f5f5;
+    border: none;
+    padding: 16px;
+    border-radius: 4px;
+    outline: none;
+    height: 100%;
+    width: 100%;
+
+}
+/*Changes color of the placeholder for search bar*/
+.crypto_input::placeholder {
+    color: black;
+}
