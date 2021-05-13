@@ -33,6 +33,7 @@
   
   .crypto_ticker {
     margin-bottom: 1rem;
+    text-transform:uppercase;
   }
   
   .crypto_current {
