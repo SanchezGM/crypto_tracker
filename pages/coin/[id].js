@@ -16,7 +16,7 @@ const Coin = ({coin}) => {
                     <img src={coin.image.large} alt={coin.name} className={styles.crypto_image} />
                     <h1 className={styles.crypto_name}>{coin.name}</h1>
                     <p className={styles.crypto_ticker}>{coin.symbol}</p>
-                    <p className={styles.crypto_current}>{coin.market_data.current_price.usd}</p>
+                    <p className={styles.crypto_current}>${coin.market_data.current_price.usd}</p>
                </div>
            </div>
         </Layout>

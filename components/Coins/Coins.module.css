@@ -6,6 +6,7 @@
 .crypto_container {
     display: flex;
     justify-content: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .crypto_row {
@@ -20,7 +21,9 @@
 }
 
 .crypto_row:hover{
-    background: #f5f5f5;
+    background: #68f2eb;
+    transform: scale(1.01);
+
 }
 
 .crypto {
