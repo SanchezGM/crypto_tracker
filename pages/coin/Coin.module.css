@@ -2,7 +2,7 @@
 * README:
 * This file changes the design of the layout for when you click on a specific
 * in the main page.
-* Currently the [id].js file is not working becaues theres an issue with the API
+* 
 */
 
 .crypto_page {
@@ -10,6 +10,7 @@
     justify-content: center;
     height: 75vh;
     align-items: center;
+    
   }
   
   .crypto_container {
@@ -21,21 +22,31 @@
     border-radius: 10px;
     padding: 4rem;
     width: 400px;
+    background-color: black;
+  }
+
+  .crypto_container:hover {
+    transform: scale(1.05);
+    background-color: turquoise;
   }
   
+  /* Changes the style for the name*/
   .crypto_image {
     margin-bottom: 1rem;
   }
   
+  /* Changes the style for the name*/
   .crypto_name {
     margin-bottom: 1rem;
   }
   
+  /* Changes the style for the ticker*/
   .crypto_ticker {
     margin-bottom: 1rem;
     text-transform:uppercase;
   }
   
+  /* Changes the style for the price*/
   .crypto_current {
     margin-bottom: 1rem;
     font-size: 2rem;

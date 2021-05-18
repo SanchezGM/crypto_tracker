@@ -3,12 +3,15 @@
 * This file changes the design of the row and item information
 */
 
+
 .crypto_container {
     display: flex;
     justify-content: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
+/* Changes the style for the row*/
 .crypto_row {
     display: flex;
     flex-direction: row;
@@ -20,8 +23,9 @@
     padding: 0rem 2rem;
 }
 
+/* When you hover over the crypto infor*/
 .crypto_row:hover{
-    background: #68f2eb;
+    background: #152f2e;
     transform: scale(1.01);
 
 }
@@ -32,17 +36,20 @@
     padding-right: 24px;
 }
 
+/* For the crypto image style*/
 .crypto_img{
     height: 30px;
     width: 30px;
     margin-right: 10px;
 }
 
+/* For the font size*/
 .crypto_h1 {
     font-size: 16px;
     width: 150px;
 }
 
+/* Changes the crypto symbol*/
 .crypto_symbol {
     text-transform: uppercase;
 }
@@ -54,18 +61,22 @@
     width: 100%;
 }
 
+/* Changes the price style*/
 .crypto_price {
     width: 110px;
 }
 
+/* Changes volume style*/
 .crypto_volume {
     width: 155px
 }
 
+/* Changes market cap style*/
 .crypto_marketcap {
     width: 230px;
 }
 
+/* Changes percent style*/
 .crypto_percent {
     width: 100px;
 }
