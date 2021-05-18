@@ -20,9 +20,11 @@ export default function Home({filteredCoins}) {
   
   return (
     <Layout>
+      
       <div className='crypto_tracker'>
-      <SearchBar type='text' placeholder='Search' onChange={changeHandler}/>
-      <CoinList specifiedCoins={listAllCoins}/>
+      <SearchBar type='text' placeholder='Search' onChange={changeHandler}/>   {/* For the search bar */ }
+      <h1 className="chartHeader">NAME | TICKER | PRICE | VOLUME | PERCENT | MARKT CAP</h1>
+      <CoinList specifiedCoins={listAllCoins}/>  {/* Displays the list of coints */ }
       </div>
     </Layout>
   );

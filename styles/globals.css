@@ -24,11 +24,12 @@ a {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-  color: black;
+  color: white;
 }
 
+
 body {
-  background-color: #ffffff;
+  background-color:#8990b3;
 }
 
 .crypto_tracker {
@@ -49,13 +50,16 @@ body {
   display: flex;
   justify-content: center;
 }
-.coin_logo {
-  height: 200px;
-  width: 200px;
-}
 
+
+
+/* Changes the size of the crypto banner at the top*/
 .crypto-logo {
   width:1000px;
   height:300px;
   object-fit: cover;
+}
+
+.chartHeader {
+  color:black;
 }

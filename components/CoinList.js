@@ -9,15 +9,15 @@ export default function CoinList({ specifiedCoins }) {
       {specifiedCoins.map(coin => {
         return (
           <Coins
-            key={coin.id}
-            name={coin.name}
-            id={coin.id}
+            key={coin.id} /* Crypto ID */
+            name={coin.name} /** Crypto name*/
+            id={coin.id} /** Crypto ID */
             price={coin.current_price}
-            symbol={coin.symbol}
-            marketcap={coin.total_volume}
-            volume={coin.market_cap}
-            image={coin.image}
-            priceChange={coin.price_change_percentage_24h}
+            symbol={coin.symbol} /** Crypto symbol */
+            marketcap={coin.total_volume} /** Crypto volume */
+            volume={coin.market_cap} /** Crypto market cap */
+            image={coin.image} /** Crypto image */
+            priceChange={coin.price_change_percentage_24h} /** Crypto percentage */
           />
         );
       })}
