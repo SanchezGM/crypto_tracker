@@ -59,3 +59,7 @@ body {
   height:300px;
   object-fit: cover;
 }
+
+.chartHeader {
+  color:black;
+}
